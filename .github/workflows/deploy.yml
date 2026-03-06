@@ -53,13 +53,18 @@ jobs:
       - name: Build client
         run: pnpm run build:client
 
+      - name: Copy build to public folder
+        run: |
+          rm -rf public/assets
+          cp -r dist/spa/* public/
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './dist/spa'
+          path: './public'
 
   deploy:
     environment:
