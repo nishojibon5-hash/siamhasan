@@ -91,7 +91,7 @@ export default function Index() {
         <div className="max-w-5xl mx-auto">
           <div className="relative h-48 md:h-64 bg-gradient-to-br from-orange-400 via-yellow-300 to-blue-500 overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&h=300&fit=crop"
+              src="https://cdn.builder.io/api/v1/image/assets%2F1db204990c154da4986e8ac44c495cbb%2F1f7253de29ee4dff86481d19fff2699f?format=webp&width=800&height=1200"
               alt="Cover"
               className="w-full h-full object-cover"
             />
