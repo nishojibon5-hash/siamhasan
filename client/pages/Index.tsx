@@ -106,7 +106,7 @@ export default function Index() {
               {/* Profile Picture */}
               <div className="flex-shrink-0">
                 <img
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop"
+                  src="https://cdn.builder.io/api/v1/image/assets%2F1db204990c154da4986e8ac44c495cbb%2Fe5b9fed0b2474cb79c1d1cf98027584b?format=webp&width=800&height=1200"
                   alt={userInfo.name}
                   className="w-32 h-32 md:w-40 md:h-40 rounded-full border-4 border-white shadow-lg object-cover"
                 />
